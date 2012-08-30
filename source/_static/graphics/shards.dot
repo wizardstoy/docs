@@ -19,7 +19,7 @@ digraph shards {
 	];
 
 	provenance [
-	label = "<title> Mapping |+ ID |+ has previous |+ date |+ owners |+ watchers|<plink>+ linkage|+ status |+ comment|+ reason"
+	label = "<title> Mapping |+ ID |+ has previous |+ date |+ editor |+ owners |+ watchers|<plink>+ linkage|+ status |+ comment|+ reason"
 	];
 
 	release [
