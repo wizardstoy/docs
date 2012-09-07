@@ -19,3 +19,16 @@ Information structure
 ======================
 
 .. graphviz:: shards.dot
+
+
+Editing is Adding
+=================
+
+All editing of the informaiton in the repository is additive.  Any edits made in a branch which delete content will not be merged into the main repository. 
+
+State
+=====
+
+A number of States are allowed for Mapping shard instances.  One of the allowable edit operations is to replace a mapping shard with an up-versioned shard with a different state.  This is a state transtition operation.
+
+.. graphviz:: state.dot
