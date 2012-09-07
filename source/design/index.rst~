@@ -11,10 +11,6 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   gettingStarted/index
-   exporting/index
-   design/index
-   implementation/index
 
 
 Indices and tables
