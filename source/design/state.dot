@@ -3,12 +3,12 @@ digraph state {
 
    	rankdir = LR;
         node [
-        fontsize = 32,
+        fontsize = 14,
         shape = Mrecord
         ];
 
         edge [
-        fontsize = 24
+        fontsize = 12
         ];
 
 ## class definitions

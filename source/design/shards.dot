@@ -4,12 +4,12 @@ digraph shards {
 
    	rankdir = LR;
         node [
-        fontsize = 32,
+        fontsize = 16,
         shape = Mrecord
         ];
 
         edge [
-        fontsize = 24
+        fontsize = 12
         ];
 
 ## class definitions
