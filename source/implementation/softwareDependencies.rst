@@ -12,6 +12,7 @@ Python
 
 Currently supported versions of Python are 2.4.x - 2.7.x.
 Python 3.x is not currently supported.
+
 Python can be built from source but most systems have it available via
 a system package manager.
 
@@ -30,6 +31,8 @@ Jena
 ====
 
 Available from `Jena <http://www.apache.org/dist/jena/binaries/apache-jena-2.7.3.tar.gz>`_.
+Currently supported version is 2.7.3.
+
 Once unpacked into an installation directory, the environment variable JENAROOT
 must be set to the location of said directory.
 
@@ -37,6 +40,8 @@ Fuseki
 ======
 
 Available from `Fuseki <http://www.apache.org/dist/jena/binaries/jena-fuseki-0.2.4-distribution.tar.gz>`_.
+Currently supported version is 0.2.4.
+
 Once unpacked into an installation directory, the environment variable FUSEKI_HOME
 must be set to the location of said directory.
 
@@ -45,5 +50,6 @@ Django
 
 Available from `Django <https://www.djangoproject.com/download/1.3.3/tarball/>`_.
 Currently supported versions of Django are 1.3.x.
+
 New versions should work fine but are not supported at this time.
 
