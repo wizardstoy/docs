@@ -39,3 +39,6 @@ CF Standard Name
 The original XML file is hosted at `CF Standard Name <http://cf-pcmdi.llnl.gov/documents/cf-standard-names/standard-name-table/19/cf-standard-name-table.xml>`_.
 A local copy of this file is XSL transformed into RDF thence into Turtle and stored in the file 'default/cf-standard-name-table.ttl'.
 
+Work is underway to access CF Standard Name data from the NERC Vocab site at `BODC <http://vocab.nerc.ac.uk/standard_name/>`_,
+probably by a download and caching of the data upon initialisation of the triple-store.
+
