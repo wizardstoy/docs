@@ -7,6 +7,10 @@ These data sets that are currently held locally are STASH, Field Code and CF Sta
 The goal of Metarelate is to not use local copies but access the data directly from
 the authorised website or SPARQL endpoint in each case.
 
+When querying remote data, Jena needs to know about any web proxies operating on your network
+in order to navigate them correctly and reach the external data source so Java must be configured
+correctly to handle this.
+
 
 .. toctree::
       :maxdepth: 1

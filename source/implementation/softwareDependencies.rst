@@ -27,6 +27,11 @@ that the full JDK be installed.
 Once installed, the environment variable JAVAHOME must be set to the path to 
 the java execution engine, 'java'
 
+In order to navigate any web proxies on your system and network, the following flags should be set
+before either Jena or Fuseki are run:
+
+export JVM_ARGS="-Dhttp.proxyHost=<yourWebProxyHost> -Dhttp.proxyPort=<yourWebProxyPort> -Xmx1200M"
+
 Jena
 ====
 
