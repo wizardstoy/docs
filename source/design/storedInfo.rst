@@ -15,6 +15,8 @@ The structure of the RDF enables queries to be run on the contained data, usiong
 
 The information structure is extensible, the structure is not fixed, but this description representsa minimum set which is required for the current set of queries used in the mapping manager.
 
+.. _information_structure:
+
 Information structure  
 ======================
 
@@ -25,6 +27,8 @@ Editing is Adding
 =================
 
 All editing of the informaiton in the repository is additive.  Any edits made in a branch which delete content will not be merged into the main repository. 
+
+.. _allowed-states:
 
 State
 =====
