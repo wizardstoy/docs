@@ -111,6 +111,11 @@ ____
 The is the current lowest level view, which lists out a view of both Mapping and of Linkage shard
 combined, as a Django ModelForm.
 
+The query operates by stepping backwards from the explicit Linkage shard name and acquiring all siblings attributes,
+then stepping backwards again to find its parent Mapping shard and acquiring all
+of its attributes as well. The OPTIONAL clause is to attempt to acquire the 'canonical unit'
+if it exists.
+
 When the data model layout changes, the query will need to find the explicit Mapping shard,
 using Provenance chain lookup sub-query, and acquire all required attributes for
 populating the ModelForm.
@@ -126,5 +131,8 @@ mapdisplay
 __________
 
 A basic view that returns direct RDF/XML or Turtle of a given Mapping shard from
-its unique URL ID identifier.
+its unique URL ID identifier. It relies on CONSTRUCT using an explicit Subject URI
+to access and render the data, its return format being governed by the 'output' type 
+flag passed into the Fuseki query: 'txt' returns Turtle, 'xml' returns RDF/XML.
+into
 
